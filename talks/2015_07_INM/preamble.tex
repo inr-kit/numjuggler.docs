@@ -1,0 +1,41 @@
+%-----------------custom HEAD----------------------------
+%%% \geometry{paperwidth=160mm,paperheight=120mm}
+%%% \usepackage{templates/beamerthemekit}
+%%% \titleimage{KIT-Titel}
+%%% \titlelogo{kitlogo}
+%%% \selectlanguage{english}
+%%% 
+%%% 
+%%% % for python listings
+%%% \usepackage{minted}
+%%% \newminted{python}{gobble=4,fontsize=\scriptsize}
+%%% \newminted{bash}{gobble=4,fontsize=\scriptsize}
+%%% \newmintinline{python}{fontsize=\scriptsize}
+%%% \newmintinline{bash}{fontsize=\scriptsize}
+%%% 
+%-----------------custom HEAD----------------------------
+
+%-----------------custom HEAD as in SNA-MC13 slides------
+\mode<presentation>
+{
+  \usetheme[english,titlepage0,16pt]{KIT}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{enumerate items}[ball]
+}
+\usepackage{babel}
+\usepackage{minted}
+\newminted{python}{gobble=4,fontsize=\scriptsize}
+\newminted{bash}{gobble=4,fontsize=\scriptsize}
+\newmintinline{python}{fontsize=\scriptsize}
+\newmintinline{bash}{fontsize=\scriptsize}
+\usenavigationsymbols
+
+\KITtitleimage[width=\titleimagewd,height=\titleimageht]{logos/KIT-Titel}
+
+%\AuthorTitleSep{\relax}
+\subtitle{A. Travleev, \\Institute for Neutron Physics and Reactor Technology (INR), KIT}
+
+\institute{$X^{th}$ ITER Neutronics Meeting, Cadarache, 29.06 -- 03.07.2015}
+
+
+%-----------------custom HEAD as in SNA-MC13 slides------

@@ -1,0 +1,11 @@
+MCNP input file
+10 1 -10.0 -1 -2 -3 4 5 6 -7 (-8:-9:10) imp:n=1 imp:p=1   $ model
+20 0  10                                                  $ other world
+
+c surfaces
+10 so 9
+1 pz 0
+2 py 1
+
+c data cards
+f4:n 10 (1 2 3 4 5 6 7 8 9 10)
