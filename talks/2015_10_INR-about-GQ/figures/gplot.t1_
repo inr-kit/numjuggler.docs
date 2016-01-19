@@ -1,0 +1,4 @@
+bas 1 0 0  0 0 1 or 0 0 0 ext 4 sca 1 lab 1 1
+bas 1 0 0  0 1 0
+bas 0 1 0  0 0 1 
+end
